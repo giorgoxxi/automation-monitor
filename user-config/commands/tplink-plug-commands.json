@@ -1,0 +1,7 @@
+{
+  "checkPowerState": {
+    "functionToCall": "getPowerState",
+    "parameters": [
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "pollInterval":60,
+  "throttleNotificationDuration":900,
+  "ifttt_url":"https://maker.ifttt.com/trigger/%s/with/key/%s",
+  "ifttt_key":"xxxxxxxxxxxxxx"
+}

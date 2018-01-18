@@ -1,0 +1,18 @@
+{
+  "checkHeaterOn":{
+    "device":"tplinkplug-heater",
+    "command":"checkPowerState",
+    "thresholdValue":true,
+    "thresholdHeldFor":3600,
+    "ifttt_event": "SendNotification",
+    "message": "The heater has been left on for more than an hour"
+  },
+  "checkIronOn":{
+    "device":"tplinkplug-iron",
+    "command":"checkPowerState",
+    "thresholdValue":true,
+    "thresholdHeldFor":600,
+    "ifttt_event": "SendNotification",
+    "message": "The iron has been left on!"
+  }
+}
