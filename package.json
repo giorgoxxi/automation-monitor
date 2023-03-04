@@ -11,6 +11,6 @@
   "dependencies": {
     "moment": "^2.20.0",
     "request": "^2.83.0",
-    "tplink-smarthome-api": "^0.20.1"
+    "tplink-smarthome-api": "^4.2.0"
   }
 }

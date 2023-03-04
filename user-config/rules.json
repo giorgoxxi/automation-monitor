@@ -1,11 +1,19 @@
 {
-  "checkHeaterOn":{
-    "device":"tplinkplug-heater",
+  "checkRightBedHeaterOn":{
+    "device":"tplinkplug-rightbedheater",
     "command":"checkPowerState",
     "thresholdValue":true,
-    "thresholdHeldFor":3600,
+    "thresholdHeldFor":1801,
     "ifttt_event": "SendNotification",
-    "message": "The heater has been left on for more than an hour"
+    "message": "The right bed heater has been left on for more than 30 minutes"
+  },
+  "checkLeftBedHeaterOn":{
+    "device":"tplinkplug-leftbedheater",
+    "command":"checkPowerState",
+    "thresholdValue":true,
+    "thresholdHeldFor":1801,
+    "ifttt_event": "SendNotification",
+    "message": "The left bed heater has been left on for more than 30 minutes"
   },
   "checkIronOn":{
     "device":"tplinkplug-iron",
